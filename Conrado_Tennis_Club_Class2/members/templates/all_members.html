@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+    <h1>Hello World!</h1>
+   <h1>members</h1>
+   <ul>
+    {%for x in mymembers%}
+     <li>{{x.firstname}} {{x.lastname}} Number: {{x.phone}} Joined: {{x.joined_date}} </li>
+    {%endfor%}
+    
+   </ul>
+
+
+</body>
+</html>
